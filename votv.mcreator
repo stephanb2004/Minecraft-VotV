@@ -1,9 +1,62 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Kurfur",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kerfur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/client/renderer/KurfurRenderer.java",
+          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json",
+          "src/main/java/net/mcreator/votv/entity/KurfurEntity.java",
+          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Kurfurspawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kurfurspawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/procedures/KurfurspawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "entity.votv.kerfur": "Kurfur",
+      "item.votv.kerfur_spawn_egg": "Kurfur Spawn Egg"
+    }
   },
   "foldersRoot": {
     "name": "~",
