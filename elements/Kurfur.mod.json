@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Kurfur",
+    "mobName": "Kerfur",
     "mobLabel": "",
     "mobModelTexture": "kurf.png",
     "mobModelGlowTexture": "",
@@ -99,9 +99,12 @@
     "stepSound": {
       "value": ""
     },
+    "onInitialSpawn": {
+      "name": "Kurfurspawn"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"675\" y=\"168\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"wander\" x=\"673\" y=\"224\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block><block type=\"attack_action\" x=\"677\" y=\"280\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"look_around\" x=\"678\" y=\"339\"><field name=\"condition\">null,null</field></block><block type=\"swim_in_water\" x=\"679\" y=\"401\"><field name=\"condition\">null,null</field></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"-100\" y=\"71\"><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"675\" y=\"168\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"wander\" x=\"673\" y=\"224\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block><block type=\"attack_action\" x=\"677\" y=\"280\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"look_around\" x=\"678\" y=\"339\"><field name=\"condition\">null,null</field></block><block type=\"swim_in_water\" x=\"679\" y=\"401\"><field name=\"condition\">null,null</field></block></xml>",
     "model": "kurfur.geo.json",
     "groupName": "",
     "animation1": "animation.model.idle",
@@ -123,12 +126,16 @@
     "enable8": false,
     "enable9": false,
     "enable10": false,
-    "breedable": false,
-    "tameable": false,
+    "breedable": true,
+    "tameable": true,
     "disableDeathRotation": false,
     "headMovement": false,
     "eyeHeight": false,
-    "breedTriggerItems": [],
+    "breedTriggerItems": [
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
