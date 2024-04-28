@@ -34,7 +34,6 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.votv.init.VotvModTabs;
 import net.mcreator.votv.init.VotvModItems;
 import net.mcreator.votv.init.VotvModEntities;
-import net.mcreator.votv.init.VotvModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,7 +54,6 @@ public class VotvMod {
 		VotvModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		VotvModBlocks.REGISTRY.register(bus);
 		VotvModItems.REGISTRY.register(bus);
 		VotvModEntities.REGISTRY.register(bus);
 
