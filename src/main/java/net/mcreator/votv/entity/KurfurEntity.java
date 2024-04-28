@@ -49,6 +49,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.votv.procedures.KurfurEntityIsHurtTameProcedure;
 import net.mcreator.votv.init.VotvModEntities;
 
 import java.util.List;
@@ -124,6 +125,12 @@ public class KurfurEntity extends TamableAnimal implements IAnimatable {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public boolean hurt(DamageSource source, float amount) {
+		KurfurEntityIsHurtTameProcedure.execute(this, source.getEntity());
+		return super.hurt(source, amount);
 	}
 
 	@Override

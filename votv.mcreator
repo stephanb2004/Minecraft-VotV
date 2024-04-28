@@ -18,37 +18,6 @@
       "path": "~/Entity"
     },
     {
-      "name": "Kurfurspawn",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kurfurspawn",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/votv/procedures/KurfurspawnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Entity"
-    },
-    {
       "name": "Cheeseslice",
       "type": "item",
       "sortid": 3,
@@ -88,6 +57,79 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "KurfurEntityIsHurtTame",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kurfur_entity_is_hurt_tame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/procedures/KurfurEntityIsHurtTameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Kerfurcrate",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kerfurcrate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/blockstates/kerfurcrate.json",
+          "src/main/java/net/mcreator/votv/block/KerfurcrateBlock.java",
+          "src/main/resources/assets/votv/models/block/kerfurcrate.json",
+          "src/main/resources/assets/votv/models/item/kerfurcrate.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "KerfurSpawn",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kerfur_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/procedures/KerfurSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [],
@@ -95,6 +137,7 @@
   "language_map": {
     "en_us": {
       "item.votv.cheeseslice": "Cheese Slice",
+      "block.votv.kerfurcrate": "Kerfurcrate",
       "entity.votv.kerfur": "Kerfur",
       "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
       "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
@@ -114,6 +157,10 @@
       },
       {
         "name": "Entity",
+        "children": []
+      },
+      {
+        "name": "blocks",
         "children": []
       }
     ]
