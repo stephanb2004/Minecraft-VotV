@@ -99,7 +99,7 @@
     "stepSound": {
       "value": ""
     },
-    "whenMobIsHurt": {
+    "onRightClickedOn": {
       "name": "KurfurEntityIsHurtTame"
     },
     "hasAI": true,

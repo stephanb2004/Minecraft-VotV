@@ -128,12 +128,6 @@ public class KurfurEntity extends TamableAnimal implements IAnimatable {
 	}
 
 	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		KurfurEntityIsHurtTameProcedure.execute(this, source.getEntity());
-		return super.hurt(source, amount);
-	}
-
-	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
@@ -173,6 +167,13 @@ public class KurfurEntity extends TamableAnimal implements IAnimatable {
 					this.setPersistenceRequired();
 			}
 		}
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Entity entity = this;
+		Level world = this.level;
+
+		KurfurEntityIsHurtTameProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 
