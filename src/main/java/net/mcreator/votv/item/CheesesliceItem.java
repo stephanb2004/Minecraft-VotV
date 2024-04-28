@@ -17,6 +17,6 @@ public class CheesesliceItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 3;
+		return 6;
 	}
 }
