@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Vot Vmod Item",
+    "icon": {
+      "value": "CUSTOM:VotVtab"
+    },
+    "showSearch": false
+  }
+}

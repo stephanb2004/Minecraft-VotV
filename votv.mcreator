@@ -9,12 +9,13 @@
       "registry_name": "kerfur",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/votv/client/renderer/KurfurRenderer.java",
-          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json",
+          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java",
           "src/main/java/net/mcreator/votv/entity/KurfurEntity.java",
-          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java"
+          "src/main/java/net/mcreator/votv/client/renderer/KurfurRenderer.java",
+          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/Entity"
     },
     {
       "name": "Kurfurspawn",
@@ -48,7 +49,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entity"
     },
     {
       "name": "Cheeseslice",
@@ -62,21 +64,63 @@
           "src/main/resources/assets/votv/models/item/cheeseslice.json",
           "src/main/java/net/mcreator/votv/item/CheesesliceItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "VotVmodItem",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vot_vmod_item",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "VotVtab",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vot_vtab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/item/VotVtabItem.java",
+          "src/main/resources/assets/votv/models/item/vot_vtab.json"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.votv.cheeseslice": "Cheeseslice",
+      "item.votv.cheeseslice": "Cheese Slice",
       "entity.votv.kerfur": "Kerfur",
-      "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg"
+      "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
+      "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
+      "item.votv.vot_vtab": "VotV tab"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Entity",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "votv",

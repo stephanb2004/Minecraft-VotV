@@ -12,6 +12,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.votv.item.VotVtabItem;
 import net.mcreator.votv.item.CheesesliceItem;
 import net.mcreator.votv.VotvMod;
 
@@ -19,4 +20,5 @@ public class VotvModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, VotvMod.MODID);
 	public static final RegistryObject<Item> KERFUR_SPAWN_EGG = REGISTRY.register("kerfur_spawn_egg", () -> new ForgeSpawnEggItem(VotvModEntities.KERFUR, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> CHEESESLICE = REGISTRY.register("cheeseslice", () -> new CheesesliceItem());
+	public static final RegistryObject<Item> VOT_VTAB = REGISTRY.register("vot_vtab", () -> new VotVtabItem());
 }

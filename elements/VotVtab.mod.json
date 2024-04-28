@@ -3,23 +3,23 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "cheese_slice",
+    "texture": "votv_v_tab",
     "customModelName": "Normal",
-    "name": "Cheese Slice",
-    "rarity": "COMMON",
+    "name": "VotV tab",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:VotVmodItem"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 3,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -29,14 +29,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": true,
-    "nutritionalValue": 2,
+    "isFood": false,
+    "nutritionalValue": 4,
     "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "eat"
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }
