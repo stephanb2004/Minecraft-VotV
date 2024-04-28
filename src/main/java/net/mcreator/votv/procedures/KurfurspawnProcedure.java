@@ -1,21 +1,6 @@
 package net.mcreator.votv.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.level.BlockEvent;
-
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.votv.init.VotvModEntities;
-import net.mcreator.votv.init.VotvModBlocks;
-import net.mcreator.votv.entity.KurfurEntity;
 
 import javax.annotation.Nullable;
 
@@ -35,7 +20,7 @@ public class KurfurspawnProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == VotvModBlocks.KERFUR_CRATE.get()) {
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == VotvModItems.DELETED_MOD_ELEMENT.get()) {
 			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = new KurfurEntity(VotvModEntities.KERFUR.get(), _level);
