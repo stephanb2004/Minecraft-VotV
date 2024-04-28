@@ -33,6 +33,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -92,12 +96,30 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "KerfurCrate",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kerfur_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/block/kerfur_crate.json",
+          "src/main/java/net/mcreator/votv/block/KerfurCrateBlock.java",
+          "src/main/resources/assets/votv/models/item/kerfur_crate.json",
+          "src/main/resources/assets/votv/blockstates/kerfur_crate.json"
+        ]
+      },
+      "path": "~/Block"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.votv.kerfur_crate": "Kerfur Crate",
       "item.votv.cheeseslice": "Cheese Slice",
       "entity.votv.kerfur": "Kerfur",
       "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
@@ -118,6 +140,10 @@
       },
       {
         "name": "Other",
+        "children": []
+      },
+      {
+        "name": "Block",
         "children": []
       }
     ]
