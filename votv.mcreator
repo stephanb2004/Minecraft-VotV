@@ -130,6 +130,49 @@
         ]
       },
       "path": "~/Entity"
+    },
+    {
+      "name": "CheeseCube",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_cube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/item/cheese_cube.json",
+          "src/main/java/net/mcreator/votv/item/CheeseCubeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CheeseCubeCraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_cube_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/votv/recipes/cheese_cube_craft.json"
+        ]
+      },
+      "path": "~/Crafting/Items"
+    },
+    {
+      "name": "CheeseSliceCraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_slice_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/votv/recipes/cheese_slice_craft.json"
+        ]
+      },
+      "path": "~/Crafting/Items"
     }
   ],
   "variable_elements": [],
@@ -141,7 +184,8 @@
       "entity.votv.kerfur": "Kerfur",
       "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
       "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
-      "item.votv.vot_vtab": "VotV tab"
+      "item.votv.vot_vtab": "VotV tab",
+      "item.votv.cheese_cube": "Cheese Cube"
     }
   },
   "foldersRoot": {
@@ -162,6 +206,19 @@
       {
         "name": "blocks",
         "children": []
+      },
+      {
+        "name": "Crafting",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
       }
     ]
   },

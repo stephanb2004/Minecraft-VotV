@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "votv:cheese_cube"
+    },
+    {
+      "item": "votv:cheese_cube"
+    },
+    {
+      "item": "votv:cheese_cube"
+    },
+    {
+      "item": "votv:cheese_cube"
+    },
+    {
+      "item": "votv:cheese_cube"
+    }
+  ],
+  "result": {
+    "item": "votv:cheeseslice",
+    "count": 1
+  }
+}

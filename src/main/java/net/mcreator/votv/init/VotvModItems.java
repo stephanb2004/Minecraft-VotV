@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.votv.item.VotVtabItem;
 import net.mcreator.votv.item.CheesesliceItem;
+import net.mcreator.votv.item.CheeseCubeItem;
 import net.mcreator.votv.VotvMod;
 
 public class VotvModItems {
@@ -24,6 +25,7 @@ public class VotvModItems {
 	public static final RegistryObject<Item> CHEESESLICE = REGISTRY.register("cheeseslice", () -> new CheesesliceItem());
 	public static final RegistryObject<Item> VOT_VTAB = REGISTRY.register("vot_vtab", () -> new VotVtabItem());
 	public static final RegistryObject<Item> KERFURCRATE = block(VotvModBlocks.KERFURCRATE, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> CHEESE_CUBE = REGISTRY.register("cheese_cube", () -> new CheeseCubeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
