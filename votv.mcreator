@@ -59,46 +59,6 @@
       "path": "~/Other"
     },
     {
-      "name": "KurfurEntityIsHurtTame",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kurfur_entity_is_hurt_tame",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/votv/procedures/KurfurEntityIsHurtTameProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "Kerfurcrate",
       "type": "block",
       "sortid": 7,
@@ -142,6 +102,30 @@
           {
             "name": "world",
             "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity"
+    },
+    {
+      "name": "KurfurRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kurfur_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/procedures/KurfurRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
           }
         ]
       },
