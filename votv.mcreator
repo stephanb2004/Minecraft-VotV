@@ -67,10 +67,10 @@
       "registry_name": "kerfurcrate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/votv/blockstates/kerfurcrate.json",
-          "src/main/java/net/mcreator/votv/block/KerfurcrateBlock.java",
+          "src/main/resources/assets/votv/models/item/kerfurcrate.json",
           "src/main/resources/assets/votv/models/block/kerfurcrate.json",
-          "src/main/resources/assets/votv/models/item/kerfurcrate.json"
+          "src/main/resources/assets/votv/blockstates/kerfurcrate.json",
+          "src/main/java/net/mcreator/votv/block/KerfurcrateBlock.java"
         ]
       },
       "path": "~/blocks"
