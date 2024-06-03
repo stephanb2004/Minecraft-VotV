@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "votv:blocks/kerfur",
-    "up": "votv:blocks/kerfur",
-    "north": "votv:blocks/kerfur",
-    "east": "votv:blocks/kerfur",
-    "south": "votv:blocks/kerfur",
-    "west": "votv:blocks/kerfur",
-    "particle": "votv:blocks/kerfur"
+    "down": "votv:blocks/testingblock",
+    "up": "votv:blocks/testingblock",
+    "north": "votv:blocks/testingblock",
+    "east": "votv:blocks/testingblock",
+    "south": "votv:blocks/testingblock",
+    "west": "votv:blocks/testingblock",
+    "particle": "votv:blocks/testingblock"
   },
   "render_type": "solid"
 }
