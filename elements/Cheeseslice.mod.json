@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "cheese_slice",
     "customModelName": "Normal",
-    "name": "Cheese Slice",
+    "name": "Cheese",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:VotVmodItem"

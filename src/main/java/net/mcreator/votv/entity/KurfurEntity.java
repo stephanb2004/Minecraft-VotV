@@ -43,6 +43,7 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.votv.procedures.KurfurRightClickedOnEntityProcedure;
 import net.mcreator.votv.init.VotvModEntities;
+import net.mcreator.votv.init.VotvModBlocks;
 
 public class KurfurEntity extends PathfinderMob implements IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(KurfurEntity.class, EntityDataSerializers.BOOLEAN);
@@ -103,6 +104,11 @@ public class KurfurEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
 		return false;
+	}
+
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(VotvModBlocks.KERFURCRATE.get()));
 	}
 
 	@Override
