@@ -35,7 +35,7 @@ public class KerfurSpawnProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == VotvModBlocks.KERFURCRATE.get()) {
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == VotvModBlocks.KERFURCRATERED.get()) {
 			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = new KurfurEntity(VotvModEntities.KERFUR.get(), _level);

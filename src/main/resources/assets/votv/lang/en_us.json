@@ -1,9 +1,13 @@
 {
+  "block.votv.concrete_wall": "Concrete Wall",
+  "block.votv.kerfurcratered": "Kerfur Crate Red",
   "item.votv.cheeseslice": "Cheese",
-  "block.votv.kerfurcrate": "Kerfurcrate",
+  "block.votv.drink_coffee_poster": "Drink Coffee Poster",
   "entity.votv.kerfur": "Kerfur",
   "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
   "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
+  "block.votv.kerfur_crate_blue": "KerfurcrateRed",
+  "block.votv.sloted_floor": "Slotted Floor",
   "item.votv.vot_vtab": "VotV tab",
   "item.votv.cheese_cube": "Cheese Cube"
 }

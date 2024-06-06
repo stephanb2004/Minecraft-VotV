@@ -9,10 +9,10 @@
       "registry_name": "kerfur",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java",
-          "src/main/java/net/mcreator/votv/entity/KurfurEntity.java",
+          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json",
           "src/main/java/net/mcreator/votv/client/renderer/KurfurRenderer.java",
-          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json"
+          "src/main/java/net/mcreator/votv/entity/KurfurEntity.java",
+          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java"
         ]
       },
       "path": "~/Entity"
@@ -52,8 +52,8 @@
       "registry_name": "vot_vtab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/votv/item/VotVtabItem.java",
-          "src/main/resources/assets/votv/models/item/vot_vtab.json"
+          "src/main/resources/assets/votv/models/item/vot_vtab.json",
+          "src/main/java/net/mcreator/votv/item/VotVtabItem.java"
         ]
       },
       "path": "~/Other"
@@ -64,12 +64,12 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kerfurcrate",
+      "registry_name": "kerfurcratered",
       "metadata": {
         "files": [
-          "src/main/resources/assets/votv/models/item/kerfurcrate.json",
-          "src/main/resources/assets/votv/models/block/kerfurcrate.json",
-          "src/main/resources/assets/votv/blockstates/kerfurcrate.json",
+          "src/main/resources/assets/votv/blockstates/kerfurcratered.json",
+          "src/main/resources/assets/votv/models/block/kerfurcratered.json",
+          "src/main/resources/assets/votv/models/item/kerfurcratered.json",
           "src/main/java/net/mcreator/votv/block/KerfurcrateBlock.java"
         ]
       },
@@ -140,8 +140,8 @@
       "registry_name": "cheese_cube",
       "metadata": {
         "files": [
-          "src/main/resources/assets/votv/models/item/cheese_cube.json",
-          "src/main/java/net/mcreator/votv/item/CheeseCubeItem.java"
+          "src/main/java/net/mcreator/votv/item/CheeseCubeItem.java",
+          "src/main/resources/assets/votv/models/item/cheese_cube.json"
         ]
       },
       "path": "~/Items"
@@ -173,17 +173,95 @@
         ]
       },
       "path": "~/Crafting/Items"
+    },
+    {
+      "name": "SlotedFloor",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sloted_floor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/SlotedFloorBlock.java",
+          "src/main/resources/assets/votv/blockstates/sloted_floor.json",
+          "src/main/resources/assets/votv/models/block/sloted_floor.json",
+          "src/main/resources/assets/votv/models/item/sloted_floor.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "ConcreteWall",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/ConcreteWallBlock.java",
+          "src/main/resources/assets/votv/blockstates/concrete_wall.json",
+          "src/main/resources/assets/votv/models/block/concrete_wall.json",
+          "src/main/resources/assets/votv/models/item/concrete_wall.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "KerfurCrateBlue",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kerfur_crate_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/KerfurCrateBlueBlock.java",
+          "src/main/resources/assets/votv/models/block/kerfur_crate_blue.json",
+          "src/main/resources/assets/votv/blockstates/kerfur_crate_blue.json",
+          "src/main/resources/assets/votv/models/item/kerfur_crate_blue.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "DrinkCoffeePoster",
+      "type": "animatedblock",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_coffee_poster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/DrinkCoffeePosterBlock.java",
+          "src/main/resources/assets/votv/models/custom/drink_coffee_poster_particle.json",
+          "src/main/java/net/mcreator/votv/block/model/DrinkCoffeePosterDisplayModel.java",
+          "src/main/java/net/mcreator/votv/block/display/DrinkCoffeePosterDisplayItem.java",
+          "src/main/resources/assets/votv/models/item/drink_coffee_poster.json",
+          "src/main/java/net/mcreator/votv/block/model/DrinkCoffeePosterBlockModel.java",
+          "src/main/java/net/mcreator/votv/block/entity/DrinkCoffeePosterTileEntity.java",
+          "src/main/resources/assets/votv/blockstates/drink_coffee_poster.json",
+          "src/main/java/net/mcreator/votv/block/renderer/DrinkCoffeePosterTileRenderer.java",
+          "src/main/java/net/mcreator/votv/block/renderer/DrinkCoffeePosterDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.votv.concrete_wall": "Concrete Wall",
+      "block.votv.kerfurcratered": "Kerfur Crate Red",
       "item.votv.cheeseslice": "Cheese",
-      "block.votv.kerfurcrate": "Kerfurcrate",
+      "block.votv.drink_coffee_poster": "Drink Coffee Poster",
       "entity.votv.kerfur": "Kerfur",
       "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
       "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
+      "block.votv.kerfur_crate_blue": "KerfurcrateRed",
+      "block.votv.sloted_floor": "Slotted Floor",
       "item.votv.vot_vtab": "VotV tab",
       "item.votv.cheese_cube": "Cheese Cube"
     }

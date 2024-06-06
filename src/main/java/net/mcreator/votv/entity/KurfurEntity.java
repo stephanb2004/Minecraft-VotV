@@ -108,7 +108,7 @@ public class KurfurEntity extends PathfinderMob implements IAnimatable {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(VotvModBlocks.KERFURCRATE.get()));
+		this.spawnAtLocation(new ItemStack(VotvModBlocks.KERFURCRATERED.get()));
 	}
 
 	@Override

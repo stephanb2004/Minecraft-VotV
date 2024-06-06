@@ -1,0 +1,7 @@
+
+{
+  "parent": "votv:displaysettings/block.item",
+  "textures": {
+    "particle": "votv:blocks/votvposter"
+  }
+}

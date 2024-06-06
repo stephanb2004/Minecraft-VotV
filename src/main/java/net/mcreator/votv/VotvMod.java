@@ -35,6 +35,7 @@ import net.mcreator.votv.init.VotvModTabs;
 import net.mcreator.votv.init.VotvModItems;
 import net.mcreator.votv.init.VotvModEntities;
 import net.mcreator.votv.init.VotvModBlocks;
+import net.mcreator.votv.init.VotvModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -58,6 +59,7 @@ public class VotvMod {
 		VotvModBlocks.REGISTRY.register(bus);
 		VotvModItems.REGISTRY.register(bus);
 		VotvModEntities.REGISTRY.register(bus);
+		VotvModBlockEntities.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

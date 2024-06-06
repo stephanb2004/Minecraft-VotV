@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "votv:blocks/image2",
+    "up": "votv:blocks/image2",
+    "north": "votv:blocks/image2",
+    "east": "votv:blocks/image2",
+    "south": "votv:blocks/image2",
+    "west": "votv:blocks/image2",
+    "particle": "votv:blocks/image2"
+  },
+  "render_type": "solid"
+}
