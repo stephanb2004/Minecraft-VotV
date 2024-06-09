@@ -67,10 +67,10 @@
       "registry_name": "kerfurcratered",
       "metadata": {
         "files": [
-          "src/main/resources/assets/votv/blockstates/kerfurcratered.json",
-          "src/main/resources/assets/votv/models/block/kerfurcratered.json",
           "src/main/resources/assets/votv/models/item/kerfurcratered.json",
-          "src/main/java/net/mcreator/votv/block/KerfurcrateBlock.java"
+          "src/main/resources/assets/votv/blockstates/kerfurcratered.json",
+          "src/main/java/net/mcreator/votv/block/KerfurcrateBlock.java",
+          "src/main/resources/assets/votv/models/block/kerfurcratered.json"
         ]
       },
       "path": "~/blocks"
@@ -217,10 +217,10 @@
       "registry_name": "kerfur_crate_blue",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/votv/block/KerfurCrateBlueBlock.java",
-          "src/main/resources/assets/votv/models/block/kerfur_crate_blue.json",
           "src/main/resources/assets/votv/blockstates/kerfur_crate_blue.json",
-          "src/main/resources/assets/votv/models/item/kerfur_crate_blue.json"
+          "src/main/resources/assets/votv/models/item/kerfur_crate_blue.json",
+          "src/main/resources/assets/votv/models/block/kerfur_crate_blue.json",
+          "src/main/java/net/mcreator/votv/block/KerfurCrateBlueBlock.java"
         ]
       },
       "path": "~/blocks"
@@ -459,7 +459,7 @@
       "item.votv.cheeseslice": "Cheese",
       "block.votv.drink_coffee_poster": "Drink Coffee Poster",
       "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
-      "block.votv.kerfur_crate_blue": "KerfurcrateRed",
+      "block.votv.kerfur_crate_blue": "Kerfur Crate Blue",
       "block.votv.vent_block": "Vent Block",
       "block.votv.sloted_floor": "Slotted Floor",
       "item.votv.vot_vtab": "VotV tab",
