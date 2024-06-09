@@ -17,6 +17,8 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.votv.item.VotVtabItem;
 import net.mcreator.votv.item.CheesesliceItem;
 import net.mcreator.votv.item.CheeseCubeItem;
+import net.mcreator.votv.block.display.WashHandsPosterDisplayItem;
+import net.mcreator.votv.block.display.HangInTherePosterDisplayItem;
 import net.mcreator.votv.block.display.DrinkCoffeePosterDisplayItem;
 import net.mcreator.votv.VotvMod;
 
@@ -32,6 +34,19 @@ public class VotvModItems {
 	public static final RegistryObject<Item> KERFUR_CRATE_BLUE = block(VotvModBlocks.KERFUR_CRATE_BLUE, VotvModTabs.TAB_VOT_VMOD_ITEM);
 	public static final RegistryObject<Item> DRINK_COFFEE_POSTER = REGISTRY.register(VotvModBlocks.DRINK_COFFEE_POSTER.getId().getPath(),
 			() -> new DrinkCoffeePosterDisplayItem(VotvModBlocks.DRINK_COFFEE_POSTER.get(), new Item.Properties().tab(VotvModTabs.TAB_VOT_VMOD_ITEM)));
+	public static final RegistryObject<Item> WASH_HANDS_POSTER = REGISTRY.register(VotvModBlocks.WASH_HANDS_POSTER.getId().getPath(),
+			() -> new WashHandsPosterDisplayItem(VotvModBlocks.WASH_HANDS_POSTER.get(), new Item.Properties().tab(VotvModTabs.TAB_VOT_VMOD_ITEM)));
+	public static final RegistryObject<Item> HANG_IN_THERE_POSTER = REGISTRY.register(VotvModBlocks.HANG_IN_THERE_POSTER.getId().getPath(),
+			() -> new HangInTherePosterDisplayItem(VotvModBlocks.HANG_IN_THERE_POSTER.get(), new Item.Properties().tab(VotvModTabs.TAB_VOT_VMOD_ITEM)));
+	public static final RegistryObject<Item> CRATE = block(VotvModBlocks.CRATE, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> BED_ROOM_WALL = block(VotvModBlocks.BED_ROOM_WALL, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> LOWER_BED_ROOM_WALL = block(VotvModBlocks.LOWER_BED_ROOM_WALL, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> GARAGE_WALL = block(VotvModBlocks.GARAGE_WALL, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> GARAGE_FLOOR = block(VotvModBlocks.GARAGE_FLOOR, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> ASPHALT = block(VotvModBlocks.ASPHALT, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> VENT_BLOCK = block(VotvModBlocks.VENT_BLOCK, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> CEALING_TILE = block(VotvModBlocks.CEALING_TILE, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> VENT_FAN = block(VotvModBlocks.VENT_FAN, VotvModTabs.TAB_VOT_VMOD_ITEM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

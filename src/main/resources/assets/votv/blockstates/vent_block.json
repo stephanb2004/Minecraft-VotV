@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "votv:block/vent_block"
+    }
+  }
+}

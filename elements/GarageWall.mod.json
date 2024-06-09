@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "cratetoporbottem",
-    "textureTop": "cratetoporbottem",
-    "textureLeft": "crateside2",
-    "textureFront": "crateside",
-    "textureRight": "crateside2",
-    "textureBack": "crateside",
+    "texture": "garagefloor",
+    "textureTop": "garagefloor",
+    "textureLeft": "garagewall",
+    "textureFront": "garagewall",
+    "textureRight": "garagewall",
+    "textureBack": "garagewall",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Kerfur Crate Red",
+    "name": "Garage Wall",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -117,25 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockPlayedBy": {
-      "name": "KerfurSpawn"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

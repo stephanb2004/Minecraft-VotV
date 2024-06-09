@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "votv:blocks/garagefloor",
+    "up": "votv:blocks/garagefloor",
+    "north": "votv:blocks/garagefloor",
+    "east": "votv:blocks/garagefloor",
+    "south": "votv:blocks/garagefloor",
+    "west": "votv:blocks/garagefloor",
+    "particle": "votv:blocks/garagefloor"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "votv:block/crate"
+    },
+    "facing=east": {
+      "model": "votv:block/crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "votv:block/crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "votv:block/crate",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "votv:block/crate",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "votv:block/crate",
+      "x": 90
+    }
+  }
+}

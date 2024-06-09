@@ -1,13 +1,24 @@
 {
   "block.votv.concrete_wall": "Concrete Wall",
+  "block.votv.vent_fan": "Vent Fan",
   "block.votv.kerfurcratered": "Kerfur Crate Red",
+  "block.votv.bed_room_wall": "Bed Room Wall",
   "item.votv.cheeseslice": "Cheese",
   "block.votv.drink_coffee_poster": "Drink Coffee Poster",
-  "entity.votv.kerfur": "Kerfur",
-  "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
   "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
   "block.votv.kerfur_crate_blue": "KerfurcrateRed",
+  "block.votv.vent_block": "Vent Block",
   "block.votv.sloted_floor": "Slotted Floor",
   "item.votv.vot_vtab": "VotV tab",
-  "item.votv.cheese_cube": "Cheese Cube"
+  "item.votv.cheese_cube": "Cheese Cube",
+  "block.votv.asphalt": "Asphalt",
+  "block.votv.wash_hands_poster": "Wash Hands Poster",
+  "block.votv.cealing_tile": "Cealing Tile",
+  "block.votv.lower_bed_room_wall": "Lower Bed Room Wall",
+  "entity.votv.kerfur": "Kerfur",
+  "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
+  "block.votv.garage_wall": "Garage Wall",
+  "block.votv.crate": "Crate",
+  "block.votv.hang_in_there_poster": "Hang In There Poster",
+  "block.votv.garage_floor": "Garage Floor"
 }

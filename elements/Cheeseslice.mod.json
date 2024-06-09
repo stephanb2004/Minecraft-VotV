@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "cheese_slice",
+    "texture": "cheese_wedge_item_texture",
     "customModelName": "Normal",
     "name": "Cheese",
     "rarity": "COMMON",

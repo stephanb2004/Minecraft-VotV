@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "votv:blocks/testingblock",
-    "up": "votv:blocks/testingblock",
-    "north": "votv:blocks/testingblock",
-    "east": "votv:blocks/testingblock",
-    "south": "votv:blocks/testingblock",
-    "west": "votv:blocks/testingblock",
-    "particle": "votv:blocks/testingblock"
+    "down": "votv:blocks/cratetoporbottem",
+    "up": "votv:blocks/cratetoporbottem",
+    "north": "votv:blocks/crateside",
+    "east": "votv:blocks/crateside2",
+    "south": "votv:blocks/crateside",
+    "west": "votv:blocks/crateside2",
+    "particle": "votv:blocks/cratetoporbottem"
   },
   "render_type": "solid"
 }

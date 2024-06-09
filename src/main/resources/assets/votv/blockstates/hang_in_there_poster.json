@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "votv:custom/hang_in_there_poster_particle"
+    },
+    "facing=east": {
+      "model": "votv:custom/hang_in_there_poster_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "votv:custom/hang_in_there_poster_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "votv:custom/hang_in_there_poster_particle",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "votv:custom/hang_in_there_poster_particle",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "votv:custom/hang_in_there_poster_particle",
+      "x": 90
+    }
+  }
+}

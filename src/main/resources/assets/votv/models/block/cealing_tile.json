@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "votv:blocks/cealingtile",
+    "up": "votv:blocks/cealingtile",
+    "north": "votv:blocks/cealingtile",
+    "east": "votv:blocks/cealingtile",
+    "south": "votv:blocks/cealingtile",
+    "west": "votv:blocks/cealingtile",
+    "particle": "votv:blocks/cealingtile"
+  },
+  "render_type": "solid"
+}

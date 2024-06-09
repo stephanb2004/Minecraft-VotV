@@ -247,6 +247,205 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "WashHandsPoster",
+      "type": "animatedblock",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wash_hands_poster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/blockstates/wash_hands_poster.json",
+          "src/main/java/net/mcreator/votv/block/WashHandsPosterBlock.java",
+          "src/main/java/net/mcreator/votv/block/entity/WashHandsPosterTileEntity.java",
+          "src/main/resources/assets/votv/models/custom/wash_hands_poster_particle.json",
+          "src/main/java/net/mcreator/votv/block/display/WashHandsPosterDisplayItem.java",
+          "src/main/resources/assets/votv/models/item/wash_hands_poster.json",
+          "src/main/java/net/mcreator/votv/block/renderer/WashHandsPosterDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/votv/block/renderer/WashHandsPosterTileRenderer.java",
+          "src/main/java/net/mcreator/votv/block/model/WashHandsPosterBlockModel.java",
+          "src/main/java/net/mcreator/votv/block/model/WashHandsPosterDisplayModel.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HangInTherePoster",
+      "type": "animatedblock",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hang_in_there_poster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/item/hang_in_there_poster.json",
+          "src/main/java/net/mcreator/votv/block/HangInTherePosterBlock.java",
+          "src/main/java/net/mcreator/votv/block/display/HangInTherePosterDisplayItem.java",
+          "src/main/resources/assets/votv/blockstates/hang_in_there_poster.json",
+          "src/main/java/net/mcreator/votv/block/model/HangInTherePosterDisplayModel.java",
+          "src/main/java/net/mcreator/votv/block/renderer/HangInTherePosterTileRenderer.java",
+          "src/main/java/net/mcreator/votv/block/model/HangInTherePosterBlockModel.java",
+          "src/main/java/net/mcreator/votv/block/renderer/HangInTherePosterDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/votv/block/entity/HangInTherePosterTileEntity.java",
+          "src/main/resources/assets/votv/models/custom/hang_in_there_poster_particle.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Crate",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/CrateBlock.java",
+          "src/main/resources/assets/votv/blockstates/crate.json",
+          "src/main/resources/assets/votv/models/item/crate.json",
+          "src/main/resources/assets/votv/models/block/crate.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "BedRoomWall",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_room_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/blockstates/bed_room_wall.json",
+          "src/main/resources/assets/votv/models/item/bed_room_wall.json",
+          "src/main/java/net/mcreator/votv/block/BedRoomWallBlock.java",
+          "src/main/resources/assets/votv/models/block/bed_room_wall.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "LowerBedRoomWall",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lower_bed_room_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/item/lower_bed_room_wall.json",
+          "src/main/resources/assets/votv/models/block/lower_bed_room_wall.json",
+          "src/main/java/net/mcreator/votv/block/LowerBedRoomWallBlock.java",
+          "src/main/resources/assets/votv/blockstates/lower_bed_room_wall.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "GarageWall",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garage_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/item/garage_wall.json",
+          "src/main/java/net/mcreator/votv/block/GarageWallBlock.java",
+          "src/main/resources/assets/votv/models/block/garage_wall.json",
+          "src/main/resources/assets/votv/blockstates/garage_wall.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "GarageFloor",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garage_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/blockstates/garage_floor.json",
+          "src/main/resources/assets/votv/models/item/garage_floor.json",
+          "src/main/resources/assets/votv/models/block/garage_floor.json",
+          "src/main/java/net/mcreator/votv/block/GarageFloorBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Asphalt",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/item/asphalt.json",
+          "src/main/resources/assets/votv/blockstates/asphalt.json",
+          "src/main/java/net/mcreator/votv/block/AsphaltBlock.java",
+          "src/main/resources/assets/votv/models/block/asphalt.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "VentBlock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/item/vent_block.json",
+          "src/main/resources/assets/votv/blockstates/vent_block.json",
+          "src/main/java/net/mcreator/votv/block/VentBlockBlock.java",
+          "src/main/resources/assets/votv/models/block/vent_block.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CealingTile",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cealing_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/block/cealing_tile.json",
+          "src/main/resources/assets/votv/blockstates/cealing_tile.json",
+          "src/main/java/net/mcreator/votv/block/CealingTileBlock.java",
+          "src/main/resources/assets/votv/models/item/cealing_tile.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "VentFan",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent_fan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/VentFanBlock.java",
+          "src/main/resources/assets/votv/models/item/vent_fan.json",
+          "src/main/resources/assets/votv/blockstates/vent_fan.json",
+          "src/main/resources/assets/votv/models/block/vent_fan.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -254,16 +453,27 @@
   "language_map": {
     "en_us": {
       "block.votv.concrete_wall": "Concrete Wall",
+      "block.votv.vent_fan": "Vent Fan",
       "block.votv.kerfurcratered": "Kerfur Crate Red",
+      "block.votv.bed_room_wall": "Bed Room Wall",
       "item.votv.cheeseslice": "Cheese",
       "block.votv.drink_coffee_poster": "Drink Coffee Poster",
-      "entity.votv.kerfur": "Kerfur",
-      "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
       "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
       "block.votv.kerfur_crate_blue": "KerfurcrateRed",
+      "block.votv.vent_block": "Vent Block",
       "block.votv.sloted_floor": "Slotted Floor",
       "item.votv.vot_vtab": "VotV tab",
-      "item.votv.cheese_cube": "Cheese Cube"
+      "item.votv.cheese_cube": "Cheese Cube",
+      "block.votv.asphalt": "Asphalt",
+      "block.votv.wash_hands_poster": "Wash Hands Poster",
+      "block.votv.cealing_tile": "Cealing Tile",
+      "block.votv.lower_bed_room_wall": "Lower Bed Room Wall",
+      "entity.votv.kerfur": "Kerfur",
+      "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
+      "block.votv.garage_wall": "Garage Wall",
+      "block.votv.crate": "Crate",
+      "block.votv.hang_in_there_poster": "Hang In There Poster",
+      "block.votv.garage_floor": "Garage Floor"
     }
   },
   "foldersRoot": {

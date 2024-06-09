@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "votv:blocks/ventblock",
+    "up": "votv:blocks/ventblock",
+    "north": "votv:blocks/ventfan",
+    "east": "votv:blocks/ventblock",
+    "south": "votv:blocks/ventfan",
+    "west": "votv:blocks/ventblock",
+    "particle": "votv:blocks/ventblock"
+  },
+  "render_type": "solid"
+}
