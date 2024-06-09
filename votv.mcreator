@@ -140,8 +140,8 @@
       "registry_name": "cheese_cube",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/votv/item/CheeseCubeItem.java",
-          "src/main/resources/assets/votv/models/item/cheese_cube.json"
+          "src/main/resources/assets/votv/models/item/cheese_cube.json",
+          "src/main/java/net/mcreator/votv/item/CheeseCubeItem.java"
         ]
       },
       "path": "~/Items"
