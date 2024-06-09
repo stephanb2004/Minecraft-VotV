@@ -463,6 +463,42 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "AriralOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ariral_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/procedures/AriralOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [],
