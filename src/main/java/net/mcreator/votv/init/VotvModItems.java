@@ -47,6 +47,7 @@ public class VotvModItems {
 	public static final RegistryObject<Item> VENT_BLOCK = block(VotvModBlocks.VENT_BLOCK, VotvModTabs.TAB_VOT_VMOD_ITEM);
 	public static final RegistryObject<Item> CEALING_TILE = block(VotvModBlocks.CEALING_TILE, VotvModTabs.TAB_VOT_VMOD_ITEM);
 	public static final RegistryObject<Item> VENT_FAN = block(VotvModBlocks.VENT_FAN, VotvModTabs.TAB_VOT_VMOD_ITEM);
+	public static final RegistryObject<Item> BEDROOM_CARPET = block(VotvModBlocks.BEDROOM_CARPET, VotvModTabs.TAB_VOT_VMOD_ITEM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

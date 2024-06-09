@@ -2,15 +2,15 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "ventblock",
-    "textureTop": "ventblock",
-    "textureLeft": "ventblock",
-    "textureFront": "ventfan",
-    "textureRight": "ventblock",
-    "textureBack": "ventblock",
+    "texture": "carpet",
+    "textureTop": "carpet",
+    "textureLeft": "carpet",
+    "textureFront": "carpet",
+    "textureRight": "carpet",
+    "textureBack": "carpet",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 2,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Vent Fan",
+    "name": "Bedroom Carpet",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "CLOTH"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "CLOTH"
     },
     "breakSound": {
       "value": ""
@@ -119,7 +119,20 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

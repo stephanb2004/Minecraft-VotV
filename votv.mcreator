@@ -446,6 +446,23 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "BedroomCarpet",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedroom_carpet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/BedroomCarpetBlock.java",
+          "src/main/resources/assets/votv/models/item/bedroom_carpet.json",
+          "src/main/resources/assets/votv/blockstates/bedroom_carpet.json",
+          "src/main/resources/assets/votv/models/block/bedroom_carpet.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -467,6 +484,7 @@
       "block.votv.asphalt": "Asphalt",
       "block.votv.wash_hands_poster": "Wash Hands Poster",
       "block.votv.cealing_tile": "Cealing Tile",
+      "block.votv.bedroom_carpet": "Bedroom Carpet",
       "block.votv.lower_bed_room_wall": "Lower Bed Room Wall",
       "entity.votv.kerfur": "Kerfur",
       "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
