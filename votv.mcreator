@@ -9,10 +9,10 @@
       "registry_name": "kerfur",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java",
-          "src/main/java/net/mcreator/votv/entity/KurfurEntity.java",
+          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json",
           "src/main/java/net/mcreator/votv/client/renderer/KurfurRenderer.java",
-          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json"
+          "src/main/java/net/mcreator/votv/entity/KurfurEntity.java",
+          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java"
         ]
       },
       "path": "~/Entity"
@@ -87,10 +87,6 @@
           "src/main/java/net/mcreator/votv/procedures/KerfurSpawnProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -351,10 +347,10 @@
       "registry_name": "garage_floor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/votv/block/GarageFloorBlock.java",
           "src/main/resources/assets/votv/blockstates/garage_floor.json",
+          "src/main/resources/assets/votv/models/item/garage_floor.json",
           "src/main/resources/assets/votv/models/block/garage_floor.json",
-          "src/main/resources/assets/votv/models/item/garage_floor.json"
+          "src/main/java/net/mcreator/votv/block/GarageFloorBlock.java"
         ]
       },
       "path": "~/blocks"
@@ -443,34 +439,86 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "BedroomCarpet",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedroom_carpet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/BedroomCarpetBlock.java",
+          "src/main/resources/assets/votv/models/block/bedroom_carpet.json",
+          "src/main/resources/assets/votv/models/item/bedroom_carpet.json",
+          "src/main/resources/assets/votv/blockstates/bedroom_carpet.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AriralOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ariral_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/procedures/AriralOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.votv.concrete_wall": "Concrete Wall",
       "block.votv.vent_fan": "Vent Fan",
-      "block.votv.kerfurcratered": "Kerfur Crate Red",
-      "block.votv.bed_room_wall": "Bed Room Wall",
-      "block.votv.cheese_wheel": "Cheese Wheel",
-      "item.votv.cheeseslice": "Cheese",
-      "block.votv.drink_coffee_poster": "Drink Coffee Poster",
-      "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
       "block.votv.kerfur_crate_blue": "Kerfur Crate Blue",
-      "block.votv.vent_block": "Vent Block",
       "block.votv.sloted_floor": "Slotted Floor",
-      "item.votv.vot_vtab": "VotV tab",
       "item.votv.cheese_cube": "Cheese Cube",
       "block.votv.asphalt": "Asphalt",
       "block.votv.wash_hands_poster": "Wash Hands Poster",
-      "block.votv.cealing_tile": "Cealing Tile",
       "block.votv.lower_bed_room_wall": "Lower Bed Room Wall",
-      "entity.votv.kerfur": "Kerfur",
       "itemGroup.tabvot_vmod_item": "Vot Vmod Item",
+      "block.votv.hang_in_there_poster": "Hang In There Poster",
+      "block.votv.concrete_wall": "Concrete Wall",
+      "block.votv.kerfurcratered": "Kerfur Crate Red",
+      "block.votv.bed_room_wall": "Bed Room Wall",
+      "item.votv.cheeseslice": "Cheese",
+      "block.votv.drink_coffee_poster": "Drink Coffee Poster",
+      "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
+      "block.votv.vent_block": "Vent Block",
+      "item.votv.vot_vtab": "VotV tab",
+      "block.votv.cealing_tile": "Cealing Tile",
+      "entity.votv.kerfur": "Kerfur",
       "block.votv.garage_wall": "Garage Wall",
       "block.votv.crate": "Crate",
-      "block.votv.hang_in_there_poster": "Hang In There Poster",
       "block.votv.garage_floor": "Garage Floor"
     }
   },
@@ -479,18 +527,6 @@
     "children": [
       {
         "name": "Items",
-        "children": []
-      },
-      {
-        "name": "Other",
-        "children": []
-      },
-      {
-        "name": "Entity",
-        "children": []
-      },
-      {
-        "name": "blocks",
         "children": []
       },
       {
@@ -505,6 +541,18 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Other",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "Entity",
+        "children": []
       }
     ]
   },

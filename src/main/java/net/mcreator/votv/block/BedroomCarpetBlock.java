@@ -5,19 +5,14 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
 
-public class CheeseWheelBlock extends Block {
-	public CheeseWheelBlock() {
-		super(BlockBehaviour.Properties.of(Material.CAKE).sound(SoundType.HONEY_BLOCK).strength(1f, 10f));
-	}
-
-	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
-		return true;
+public class BedroomCarpetBlock extends Block {
+	public BedroomCarpetBlock() {
+		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(1f, 10f));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
+		return 15;
 	}
 
 	@Override

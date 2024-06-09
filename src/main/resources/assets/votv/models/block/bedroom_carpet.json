@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "votv:blocks/carpet",
+    "up": "votv:blocks/carpet",
+    "north": "votv:blocks/carpet",
+    "east": "votv:blocks/carpet",
+    "south": "votv:blocks/carpet",
+    "west": "votv:blocks/carpet",
+    "particle": "votv:blocks/carpet"
+  },
+  "render_type": "solid"
+}
