@@ -23,6 +23,7 @@ import net.mcreator.votv.block.GarageFloorBlock;
 import net.mcreator.votv.block.DrinkCoffeePosterBlock;
 import net.mcreator.votv.block.CrateBlock;
 import net.mcreator.votv.block.ConcreteWallBlock;
+import net.mcreator.votv.block.CheeseWheelBlock;
 import net.mcreator.votv.block.CealingTileBlock;
 import net.mcreator.votv.block.BedRoomWallBlock;
 import net.mcreator.votv.block.AsphaltBlock;
@@ -46,4 +47,5 @@ public class VotvModBlocks {
 	public static final RegistryObject<Block> VENT_BLOCK = REGISTRY.register("vent_block", () -> new VentBlockBlock());
 	public static final RegistryObject<Block> CEALING_TILE = REGISTRY.register("cealing_tile", () -> new CealingTileBlock());
 	public static final RegistryObject<Block> VENT_FAN = REGISTRY.register("vent_fan", () -> new VentFanBlock());
+	public static final RegistryObject<Block> CHEESE_WHEEL = REGISTRY.register("cheese_wheel", () -> new CheeseWheelBlock());
 }

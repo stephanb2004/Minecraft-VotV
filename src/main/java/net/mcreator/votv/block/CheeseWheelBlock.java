@@ -7,25 +7,26 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.core.BlockPos;
-
-import net.mcreator.votv.procedures.KerfurSpawnProcedure;
 
 import java.util.List;
 import java.util.Collections;
 
-public class KerfurCrateBlueBlock extends Block {
-	public KerfurCrateBlueBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+public class CheeseWheelBlock extends Block {
+	public CheeseWheelBlock() {
+		super(BlockBehaviour.Properties.of(Material.CAKE).sound(SoundType.HONEY_BLOCK).strength(1f, 10f));
+	}
+
+	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
 	}
 
 	@Override
@@ -34,11 +35,5 @@ public class KerfurCrateBlueBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
-	}
-
-	@Override
-	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
-		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		KerfurSpawnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }

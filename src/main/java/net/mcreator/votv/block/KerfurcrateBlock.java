@@ -39,6 +39,6 @@ public class KerfurcrateBlock extends Block {
 	@Override
 	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
 		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		KerfurSpawnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		KerfurSpawnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }

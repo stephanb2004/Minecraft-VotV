@@ -9,10 +9,10 @@
       "registry_name": "kerfur",
       "metadata": {
         "files": [
-          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json",
-          "src/main/java/net/mcreator/votv/client/renderer/KurfurRenderer.java",
+          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java",
           "src/main/java/net/mcreator/votv/entity/KurfurEntity.java",
-          "src/main/java/net/mcreator/votv/entity/model/KurfurModel.java"
+          "src/main/java/net/mcreator/votv/client/renderer/KurfurRenderer.java",
+          "src/main/resources/assets/votv/models/item/kerfur_spawn_egg.json"
         ]
       },
       "path": "~/Entity"
@@ -88,6 +88,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -102,30 +106,6 @@
           {
             "name": "world",
             "type": "world"
-          }
-        ]
-      },
-      "path": "~/Entity"
-    },
-    {
-      "name": "KurfurRightClickedOnEntity",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kurfur_right_clicked_on_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/votv/procedures/KurfurRightClickedOnEntityProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
           }
         ]
       },
@@ -371,10 +351,10 @@
       "registry_name": "garage_floor",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/votv/block/GarageFloorBlock.java",
           "src/main/resources/assets/votv/blockstates/garage_floor.json",
-          "src/main/resources/assets/votv/models/item/garage_floor.json",
           "src/main/resources/assets/votv/models/block/garage_floor.json",
-          "src/main/java/net/mcreator/votv/block/GarageFloorBlock.java"
+          "src/main/resources/assets/votv/models/item/garage_floor.json"
         ]
       },
       "path": "~/blocks"
@@ -446,6 +426,23 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "CheeseWheel",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_wheel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/blockstates/cheese_wheel.json",
+          "src/main/java/net/mcreator/votv/block/CheeseWheelBlock.java",
+          "src/main/resources/assets/votv/models/item/cheese_wheel.json",
+          "src/main/resources/assets/votv/models/block/cheese_wheel.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -456,6 +453,7 @@
       "block.votv.vent_fan": "Vent Fan",
       "block.votv.kerfurcratered": "Kerfur Crate Red",
       "block.votv.bed_room_wall": "Bed Room Wall",
+      "block.votv.cheese_wheel": "Cheese Wheel",
       "item.votv.cheeseslice": "Cheese",
       "block.votv.drink_coffee_poster": "Drink Coffee Poster",
       "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
