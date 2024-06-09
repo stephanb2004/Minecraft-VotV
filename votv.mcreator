@@ -513,8 +513,8 @@
   "workspaceSettings": {
     "modid": "votv",
     "modName": "VotV",
-    "version": "1.0.0",
-    "author": "boivi, MCreator",
+    "version": "0.1",
+    "author": "Stephan,",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
