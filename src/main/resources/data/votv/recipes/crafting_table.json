@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "votv:cheeseslice"
+    },
+    "1": {
+      "item": "votv:cheeseslice"
+    },
+    "2": {
+      "item": "votv:cheeseslice"
+    },
+    "3": {
+      "item": "votv:cheeseslice"
+    },
+    "4": {
+      "item": "votv:cheeseslice"
+    },
+    "5": {
+      "item": "votv:cheeseslice"
+    },
+    "6": {
+      "item": "votv:cheeseslice"
+    },
+    "7": {
+      "item": "votv:cheeseslice"
+    },
+    "8": {
+      "item": "votv:cheeseslice"
+    }
+  },
+  "result": {
+    "item": "votv:cheese_wheel",
+    "count": 1
+  }
+}
