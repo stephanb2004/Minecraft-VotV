@@ -33,10 +33,10 @@ import net.mcreator.votv.procedures.CheeseWheelOnBlockRightClickedProcedure;
 import java.util.List;
 import java.util.Collections;
 
-public class CheeseWheelBlock extends Block {
+public class CheeseWheel3Block extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public CheeseWheelBlock() {
+	public CheeseWheel3Block() {
 		super(BlockBehaviour.Properties.of(Material.CAKE, MaterialColor.NONE).sound(SoundType.HONEY_BLOCK).strength(0.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -59,10 +59,10 @@ public class CheeseWheelBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(8, 0, 8, 15, 8, 15), box(1, 0, 8, 8, 8, 15), box(8, 0, 1, 15, 8, 8), box(1, 0, 1, 8, 8, 8));
-			case NORTH -> Shapes.or(box(1, 0, 1, 8, 8, 8), box(8, 0, 1, 15, 8, 8), box(1, 0, 8, 8, 8, 15), box(8, 0, 8, 15, 8, 15));
-			case EAST -> Shapes.or(box(8, 0, 1, 15, 8, 8), box(8, 0, 8, 15, 8, 15), box(1, 0, 1, 8, 8, 8), box(1, 0, 8, 8, 8, 15));
-			case WEST -> Shapes.or(box(1, 0, 8, 8, 8, 15), box(1, 0, 1, 8, 8, 8), box(8, 0, 8, 15, 8, 15), box(8, 0, 1, 15, 8, 8));
+			default -> box(1, 0, 1, 8, 8, 8);
+			case NORTH -> box(8, 0, 8, 15, 8, 15);
+			case EAST -> box(1, 0, 8, 8, 8, 15);
+			case WEST -> box(8, 0, 1, 15, 8, 8);
 		};
 	}
 

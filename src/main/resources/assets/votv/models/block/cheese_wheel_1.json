@@ -1,9 +1,9 @@
 {
-  "parent": "votv:custom/cheese_wheel_block_model",
+  "parent": "votv:custom/cheese_wheel_block_model_bite1",
   "textures": {
     "all": "votv:blocks/cheese_wheel_block_texture",
     "particle": "votv:blocks/cheese_wheel_block_texture",
-    "0": "votv:blocks/cheese_wheel_block_texture"
+    "1": "votv:blocks/cheese_wheel_block_texture"
   },
   "render_type": "solid"
 }

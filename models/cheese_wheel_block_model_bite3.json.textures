@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "cheese_wheel_block_texture"
+      },
+      "name": "default"
+    }
+  }
+}

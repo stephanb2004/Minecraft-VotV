@@ -24,6 +24,9 @@ import net.mcreator.votv.block.DrinkCoffeePosterBlock;
 import net.mcreator.votv.block.CrateBlock;
 import net.mcreator.votv.block.ConcreteWallBlock;
 import net.mcreator.votv.block.CheeseWheelBlock;
+import net.mcreator.votv.block.CheeseWheel3Block;
+import net.mcreator.votv.block.CheeseWheel2Block;
+import net.mcreator.votv.block.CheeseWheel1Block;
 import net.mcreator.votv.block.CealingTileBlock;
 import net.mcreator.votv.block.BedroomCarpetBlock;
 import net.mcreator.votv.block.BedRoomWallBlock;
@@ -48,6 +51,9 @@ public class VotvModBlocks {
 	public static final RegistryObject<Block> VENT_BLOCK = REGISTRY.register("vent_block", () -> new VentBlockBlock());
 	public static final RegistryObject<Block> CEALING_TILE = REGISTRY.register("cealing_tile", () -> new CealingTileBlock());
 	public static final RegistryObject<Block> VENT_FAN = REGISTRY.register("vent_fan", () -> new VentFanBlock());
-	public static final RegistryObject<Block> CHEESE_WHEEL = REGISTRY.register("cheese_wheel", () -> new CheeseWheelBlock());
 	public static final RegistryObject<Block> BEDROOM_CARPET = REGISTRY.register("bedroom_carpet", () -> new BedroomCarpetBlock());
+	public static final RegistryObject<Block> CHEESE_WHEEL = REGISTRY.register("cheese_wheel", () -> new CheeseWheelBlock());
+	public static final RegistryObject<Block> CHEESE_WHEEL_1 = REGISTRY.register("cheese_wheel_1", () -> new CheeseWheel1Block());
+	public static final RegistryObject<Block> CHEESE_WHEEL_2 = REGISTRY.register("cheese_wheel_2", () -> new CheeseWheel2Block());
+	public static final RegistryObject<Block> CHEESE_WHEEL_3 = REGISTRY.register("cheese_wheel_3", () -> new CheeseWheel3Block());
 }

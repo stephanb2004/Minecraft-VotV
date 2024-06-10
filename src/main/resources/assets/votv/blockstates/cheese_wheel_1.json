@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "votv:block/cheese_wheel"
+      "model": "votv:block/cheese_wheel_1"
     },
     "facing=east": {
-      "model": "votv:block/cheese_wheel",
+      "model": "votv:block/cheese_wheel_1",
       "y": 90
     },
     "facing=south": {
-      "model": "votv:block/cheese_wheel",
+      "model": "votv:block/cheese_wheel_1",
       "y": 180
     },
     "facing=west": {
-      "model": "votv:block/cheese_wheel",
+      "model": "votv:block/cheese_wheel_1",
       "y": 270
     }
   }

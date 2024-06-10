@@ -62,7 +62,7 @@
       "name": "Kerfurcrate",
       "type": "block",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "kerfurcratered",
       "metadata": {
@@ -428,23 +428,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "CheeseWheel",
-      "type": "block",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cheese_wheel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/votv/blockstates/cheese_wheel.json",
-          "src/main/java/net/mcreator/votv/block/CheeseWheelBlock.java",
-          "src/main/resources/assets/votv/models/item/cheese_wheel.json",
-          "src/main/resources/assets/votv/models/block/cheese_wheel.json"
-        ]
-      },
-      "path": "~/blocks"
-    },
-    {
       "name": "BedroomCarpet",
       "type": "block",
       "sortid": 28,
@@ -496,6 +479,110 @@
         ]
       },
       "path": "~/Entity"
+    },
+    {
+      "name": "CheeseWheel",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_wheel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/blockstates/cheese_wheel.json",
+          "src/main/java/net/mcreator/votv/block/CheeseWheelBlock.java",
+          "src/main/resources/assets/votv/models/item/cheese_wheel.json",
+          "src/main/resources/assets/votv/models/block/cheese_wheel.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CheeseWheel1",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_wheel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/item/cheese_wheel_1.json",
+          "src/main/java/net/mcreator/votv/block/CheeseWheel1Block.java",
+          "src/main/resources/assets/votv/models/block/cheese_wheel_1.json",
+          "src/main/resources/assets/votv/blockstates/cheese_wheel_1.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CheeseWheel2",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_wheel_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/votv/models/block/cheese_wheel_2.json",
+          "src/main/resources/assets/votv/blockstates/cheese_wheel_2.json",
+          "src/main/resources/assets/votv/models/item/cheese_wheel_2.json",
+          "src/main/java/net/mcreator/votv/block/CheeseWheel2Block.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CheeseWheel3",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_wheel_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/block/CheeseWheel3Block.java",
+          "src/main/resources/assets/votv/models/block/cheese_wheel_3.json",
+          "src/main/resources/assets/votv/models/item/cheese_wheel_3.json",
+          "src/main/resources/assets/votv/blockstates/cheese_wheel_3.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "CheeseWheelOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_wheel_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/votv/procedures/CheeseWheelOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -520,12 +607,15 @@
       "item.votv.kerfur_spawn_egg": "Kerfur Spawn Egg",
       "block.votv.vent_block": "Vent Block",
       "item.votv.vot_vtab": "VotV tab",
+      "block.votv.cheese_wheel_1": "Cheese Wheel",
       "block.votv.cealing_tile": "Cealing Tile",
       "block.votv.bedroom_carpet": "Bedroom Carpet",
       "entity.votv.kerfur": "Kerfur",
       "block.votv.garage_wall": "Garage Wall",
       "block.votv.crate": "Crate",
-      "block.votv.garage_floor": "Garage Floor"
+      "block.votv.cheese_wheel_3": "Cheese Wheel",
+      "block.votv.garage_floor": "Garage Floor",
+      "block.votv.cheese_wheel_2": "Cheese Wheel"
     }
   },
   "foldersRoot": {
